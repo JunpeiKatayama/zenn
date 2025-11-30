@@ -127,11 +127,43 @@ $ blog list
   コミットする変更はありませんでした
   ```
 
-```
+  diff ある場合
+
+  ```bash
+  $ blog
+  スラグが指定されていないため、全ての変更をコミットします
+  リポジトリの変更をコミットします...
+  > git status --porcelain
+  > git add .
+  warning: in the working copy of 'articles/mizchi-blog-test.md', LF will be replaced by CRLF the next time Git touches it
+  git add: 成功
+  > git commit -m 'Update zenn repository'
+  [main 83bf477] Update zenn repository
+  1 file changed, 14 insertions(+)
+  git commit: 成功
+  > git push origin
+  Enumerating objects: 7, done.
+  Counting objects: 100% (7/7), done.
+  Delta compression using up to 24 threads
+  Compressing objects: 100% (2/2), done.
+  Writing objects: 100% (4/4), 554 bytes | 554.00 KiB/s, done.
+  Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+  remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+  To https://github.com/JunpeiKatayama/zenn
+   1861757..83bf477  main -> main
+  git push: 成功
+  Git操作が完了しました
+  ```
+
+````
 
 ## 使ってみた所感
 
 - 雛形生成と VS Code 起動が一発で済むので、記事を書くまでの儀式が減った。
 - Git Bash でも `PATH` を通せばそのまま動作。環境変数 `BLOG_ZENN_REPO` を使えば別パスのリポジトリにも対応できる。
 - `--update` で Git 操作まで自動化できるので、書いたらすぐ push まで持っていける。
+
 ```
+
+```
+````
