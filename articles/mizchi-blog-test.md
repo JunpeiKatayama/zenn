@@ -73,11 +73,37 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 
   変更があれば `git add/commit/push` まで流れるので、push の認証設定だけ事前に済ませておく。
 
+  ```
+  ファイル mizchi-blog-test.md の変更を検出しました
+  Git操作を実行します...
+  > git add 'C:\Users\jupei\zenn\articles\mizchi-blog-test.md'
+  warning: in the working copy of 'articles/mizchi-blog-test.md', LF will be replaced by CRLF the next time Git touches it
+  git add: 成功
+  > git commit -m 'Update mizchi-blog-test'
+  [main (root-commit) 60ce66e] Update mizchi-blog-test
+  1 file changed, 91 insertions(+)
+  create mode 100644 articles/mizchi-blog-test.md
+  git commit: 成功
+  > git push origin
+  Enumerating objects: 4, done.
+  Counting objects: 100% (4/4), done.
+  Delta compression using up to 24 threads
+  Compressing objects: 100% (2/2), done.
+  Writing objects: 100% (4/4), 1.65 KiB | 1.65 MiB/s, done.
+  Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+  To https://github.com/JunpeiKatayama/zenn
+  * [new branch] main -> main
+  git push: 成功
+  Git 操作が完了しました
+  ```
+
+````
+
 - 記事一覧を Git の変更状況付きで確認:
 
-  ```bash
-  blog list
-  ```
+```bash
+blog list
+````
 
 - スラグ省略でリポジトリ全体の変更を commit/push:
   ```bash
