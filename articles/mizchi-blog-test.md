@@ -56,7 +56,8 @@ https://x.com/mizchi/status/1945122763653394931?s=20
    環境変数を設定して、どのディレクトリからでも記事の md ファイルを開けるように。
 
    ```bash
-   export BLOG_ZENN_REPO="/c/Users/<user>/zenn"
+   echo 'export BLOG_ZENN_REPO="/c/Users/<user>/zenn"' >> ~/.bashrc
+   source ~/.bashrc
    ```
 
 4. 記事を書く
@@ -218,5 +219,5 @@ blog
 
 ## 使ってみた所感
 
-- 作業メモを残すようにして後から記事の形に整えたりが結構気軽にできて便利無きがする。
+- 作業メモを残すようにして後から記事の形に整えたりが結構気軽にできて便利なきがする。
 - 発信することがあまりないことには、今は気付かないふりをする・・・。
