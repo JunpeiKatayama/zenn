@@ -42,7 +42,7 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 
   こうなる。
 
-  ```
+  ```bash
   $ blog mizchi-blog-test
   記事が存在しないため、雛形を作成します: C:\Users\jupei\zenn\articles\mizchi-blog-test.md
   雛形を作成しました
@@ -52,7 +52,7 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 
   この状態で閉じると push は実行されない。
 
-  ```
+  ```bash
   VSCodeが閉じられました
   ```
 
@@ -64,7 +64,7 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 
   こうなる。
 
-  ```
+  ```bash
   $ blog mizchi-blog-test -u
   既存の記事を開きます: C:\Users\jupei\zenn\articles\mizchi-blog-test.md
   VSCodeでファイルを開きます。編集が終わったらVSCodeを閉じてください...
@@ -73,7 +73,7 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 
   変更があれば `git add/commit/push` まで流れるので、push の認証設定だけ事前に済ませておく。
 
-  ```
+  ```bash
   ファイル mizchi-blog-test.md の変更を検出しました
   Git操作を実行します...
   > git add 'C:\Users\jupei\zenn\articles\mizchi-blog-test.md'
@@ -104,6 +104,12 @@ Windows 環境で mizchi さんの Deno 製 `blog` コマンドを試したと�
 ```bash
 blog list
 ````
+
+```bash
+$ blog list
+記事一覧 (Git更新履歴順):
+~\articles\mizchi-blog-test.md
+```
 
 - スラグ省略でリポジトリ全体の変更を commit/push:
   ```bash
