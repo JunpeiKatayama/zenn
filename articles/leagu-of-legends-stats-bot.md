@@ -3,7 +3,7 @@ title: League of Legends の戦績を集計する Discord BOT を作ったメモ
 emoji: "🧙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["lol", "riot-api", "discord", "railway"]
-published: false
+published: true
 ---
 
 ## はじめに
