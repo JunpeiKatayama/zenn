@@ -10,7 +10,7 @@ published: false
 
 League of Legends(以降 LoL)の戦績を集計する Discord の BOT を作りました。
 OPGG だと広告の表示領域が大きすぎて気になるため。
-![OPGGのSS](../images/スクリーンショット%202025-12-01%20180949.png)
+![OPGGのSS](../images/image.png)
 
 その中で、先に知っていればよかったな～と思ったことを記載します。
 
