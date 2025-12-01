@@ -1,6 +1,6 @@
 ---
-title: leagu-of-oegend-stats-bot
-emoji: "🤖"
+title: League of Legends の戦績を集計する Discord BOT を作ったメモ
+emoji: "🧙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
 published: false
@@ -8,7 +8,7 @@ published: false
 
 ## はじめに
 
-League of Legend(以降 LoL)の戦績を集計する Discord の BOT を作りました。
+League of Legends(以降 LoL)の戦績を集計する Discord の BOT を作りました。
 OPGG だと広告の表示領域が大きすぎて気になるため。
 ![OPGGのSS](../images/スクリーンショット%202025-12-01%20180949.png)
 
