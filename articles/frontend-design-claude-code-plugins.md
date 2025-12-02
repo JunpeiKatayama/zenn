@@ -3,7 +3,7 @@ title: frontend-design@claude-code-plugin 試してみたメモ
 emoji: "🎨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["claudecode", "claude", "ai", "frontend", "design"]
-published: false
+published: true
 ---
 
 ## はじめに
