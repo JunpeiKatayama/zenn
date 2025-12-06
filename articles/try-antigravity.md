@@ -3,7 +3,7 @@ title: Googleの新エディタ『Antigravity』試してみたメモ
 emoji: "🌍️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["antigravity", "google", "ai", "ide", "vscode", "エージェント開発"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -95,7 +95,7 @@ Walkthrough にはテスト時の画像と動画が添付されています。
 ![review](/images/スクリーンショット%202025-12-06%20163454.png)
 文章や画像にマウスオーバーすると Review ボタンが出てきて、そこからレビューコメントを入れられます。
 
-このブラウザを直接操作してくれるという部分が Antigravity を選ぶキモになってくるかな、と思います。
+この「ブラウザを直接操作してくれる」という部分が Antigravity を選ぶキモになってくるかな、と思います。
 
 ## 困ったこと
 
