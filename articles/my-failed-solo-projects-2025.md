@@ -3,7 +3,7 @@ title: 2025 個人開発やってみたけどダメだったメモ
 emoji: "⛄️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["個人開発", "失敗談", "AI", "Cursor", "ClaudeCode", "Codex"]
-published: false
+published: true
 ---
 
 ## はじめに
